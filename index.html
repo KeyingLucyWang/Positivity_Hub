@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PoSiViBes</title>
+    <title>PosiVibes</title>
     <link rel="shortcut icon" href="img/logo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital@0;1&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- <div class="jumbotron">
+        <h1>PosiVibes</h1>
+    </div> -->
     <div id="navigation-sticky">
 
         <!-- Navigation -->
@@ -29,10 +32,29 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Explore</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Resources</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+                        <li class="nav-item"><a href="#about_section" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#explore_section" class="nav-link">Explore</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"  href="#" data-toggle="dropdown" data-target="resources_dropdown">
+                                Resources
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="resources_dropdown">
+                                <a class="dropdown-item">Resources 1</a>
+                                <a class="dropdown-item">Resources 2</a>
+                                <a class="dropdown-item">Resources 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="contact_dropdown">
+                                Stay Connected
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="contact_dropdown">
+                                <a class="dropdown-item">LinkedIn</a>
+                                <a class="dropdown-item">GitHub</a>
+                                <a class="dropdown-item">Facebook</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -41,7 +63,7 @@
 
         <!-- Image Carousel -->
         <div id="carousel" class="carousel slide" data-ride="carousel"
-            data-interval="500000"> <!--5000 = 5 seconds--->
+            data-interval="6500"> <!--5000 = 5 seconds--->
             <!-- Carousel Content -->
             <div class="carousel-inner">
 
@@ -95,15 +117,15 @@
             </ol>
             <!-- End Carousel Indicators -->
 
-        </div>
+        <a id="about_section"></div></a>
         <!-- End Image Carousel -->
 
-    </div> <!-- End Navigation Sticky ID Section -->
+    <!-- </div> End Navigation Sticky ID Section -->
 
-    <div id="social-media-sticky">
+    <!-- <div id="subscribe-sticky"> -->
 
-        <!-- Start Social Jumbotron -->
-        <div class="jumbotron stick-top">
+        <!-- Start Subscribe Jumbotron -->
+        <!-- <div class="jumbotron sticky-top">
             <div class="container">
                 <div class="row justify-content-center text-center">
 
@@ -112,32 +134,31 @@
                     </div>
 
                     <div class="col-sm-10 col-md-8 col-lg-7 col-xl-5 pt-1 text-right">
-                        <a href="#" class="btn btn-block btn-outline-danger">Subscribe</a>
-
+                        <a href="#" class="btn btn-block btn-outline-danger btn-custom">Subscribe</a>
+                    </div>
 
                 </div>
             </div>
-        </div>
-        <!-- End Social Jumbotron -->
-
-
-        <!-- Main Page Heading -->
-
-
-        <!-- Three Column Section -->
-
-        <!-- End Three Column Section -->
-
-<!-- border -->
+        </div> -->
+        <!-- End Subscribe Jumbotron -->
 
         <!-- Start Two Column Section -->
-
+        <div class="container mt-5">
+            <div class="row py-5 mb-5">
+    
+                <div class="col-lg-5 mb-4 my-lg-auto">
+                    <h1 class="font-weight-bold mb-3">ABOUT</h1>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum non mollitia voluptatibus repudiandae fuga repellat minus animi! Nemo suscipit repudiandae itaque. Quasi, accusantium non at doloribus expedita architecto similique.</p>
+                </div>
+    
+                <div class="col-lg-7"><img src="img/about.jpg" alt="" class="w-100"></div>
+    
+            </div>
+        </div>
         <!-- End Two Column Section -->
-         
-    </div> <!-- End Social Media Sticky -->
 
 
-    <!-- Start Fixed Background IMG --
+    <!-- Start Fixed Background IMG -->
     <div class="fixed-background">
         <div class="fixed-wrap">
             <div class="fixed">
@@ -147,7 +168,7 @@
     <!-- End Fixed Background IMG -->
 
 
-    <div id="text-button-sticky">
+    <!-- <div id="text-button-sticky"> -->
 
             <!-- Start Bundle Pack Jumbotron --
             <div class="jumbotron fixed-top" style="margin-bottom: 2px;">
@@ -171,10 +192,51 @@
 
         <!-- End Three Column Section -->
     
-<!-- border -->
+        <!-- <div class="border-top border-dark mb-3 w-100 ml-auto"></div> -->
 
-    </div> <!-- End Text Button Sticky -->
+    <!-- </div> End Text Button Sticky -->
+        <!-- Main Page Heading -->
+        <div class="col-12 text-center mt-5">
+            <h1 class="display-4 pt-4">
+                <a id="explore_section">
+                    EXPLORE
+                </a></h1>
+            <div class="border-top border-dark w-50 mx-auto my-3">
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis expedita, autem error repellendus consectetur magni provident, commodi sint delectus deserunt quos inventore pariatur quia asperiores corporis deleniti eos perferendis numquam.</p>
+            
+            </div>
+        </div>
 
+        <!-- Three Column Section -->
+        <div class="container pb-4">
+            <div class="row justify-content-center my-5 text-center">
+
+                <div class="col-md-6 col-lg-4 py-3">
+                    <img class="preview" src="img/preview1.jpg">
+                    <p class="lead">Cute bunny</p>
+                    <a href="#" class="btn btn-outline-dark btn-md">See more</a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 py-3">
+                    <img class="preview" src="img/preview2.jpg">
+                    <p class="lead">Positive vibes</p>
+                    <a href="#" class="btn btn-outline-dark btn-md">See more</a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 py-3">
+                    <img class="preview" src="img/preview3.jpg">
+                    <p class="lead">quote</p>
+                    <a href="#" class="btn btn-outline-dark btn-md">See more</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- End Three Column Section -->
+         
+    </div> <!-- End Nav Bar Sticky -->
+
+    <!-- border -->
+    <div class="border-top border-dark mb-3 w-100 ml-auto"></div>
 
     <!-- Start Two Column Section -->
 
@@ -201,15 +263,38 @@
 
 
     <!-- Start Footer -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row justify-content-center text-center text-light">
 
+                <div class="col-md-9">
+                    <img src="img/logo.png" alt="logo">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur nam quasi molestiae autem eum soluta vel mollitia deleniti? Eum nostrum dignissimos non praesentium libero repellat accusamus, tenetur porro quae necessitatibus!</p>
+                
+                </div>
+                
+                <div class="col-md-4">
+                    <hr class="bg-light">
+                    <h5>Contact Info</h5>
+                    <hr class="bg-light">
+                    <p><a href="mailto:+me@myemail.com">keyingw@andrew.cmu.edu</a></p>
+                    <p><a href="https://www.linkedin.com/in/lucy-wang-6153b4194/">LinkedIn Profile</a></p>
+                    <p><a href="https://github.com/LucyWang01">GitHub</a></p>
+                    <p>New York, New York</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- End Footer -->
 
 
     <!-- Start Socket -->
-
+    <div class="socket text-light text-center py-4">
+        <p>&copy; <a href="#" target= "_blank">www.posivibes.com</a></p>
+    </div>
     <!-- End Socket -->
 
-
+    <div class="space" style="height: 80vh;"></div>
     <!-- Script Source Files -->
 
     <!-- jQuery -->

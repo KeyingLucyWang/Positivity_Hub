@@ -3,9 +3,9 @@ html, body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-  /*font-family: 'Indie Flower', cursive;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Roboto', sans-serif;*/
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
   font-family: 'PT Sans', sans-serif;
   
   font-size: large;
@@ -41,7 +41,7 @@ html, body {
 /*============= CAROUSEL =============*/
 
 .carousel-inner {
-  max-height: 40rem!important;
+  max-height: 32rem!important;
 }
 
 /*---Change Carousel Transition Speed --*/
@@ -87,17 +87,29 @@ p.lead {
   font-size:1.2rem;
 }
 
-/*============= SOCIAL MEDIA STICKY BAR =============*/
+/*============= SUBSCRIBE BUTTON STICKY BAR =============*/
 
 .jumbotron {
-  background: linear-gradient(to right, #f2f2f2, #FBFBFB);
+  background: linear-gradient(to right, #fdfdfd, #FBFBFB);
   padding: 1rem 0 .5rem;
   margin-bottom: 0;
   border-radius: 0;
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
 }
+
+.jumbotron .btn-custom {
+  font-size: 1.6rem;
+}
+
+.jumbotron .btn-custom:hover {
+  color: white;
+}
 /*============= COLUMN CONTENT =============*/
 
+.container .preview {
+  width: auto!important;
+  height: 15rem!important;
+}
 
 
 /*===== FIXED BACKGROUND IMG =====*/
