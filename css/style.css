@@ -11,6 +11,10 @@ html, body {
   font-size: large;
 }
 
+.special_text {
+  font-family: 'Indie Flower', cursive;
+}
+
 /*============= NAVIGATION =============*/
 
 .navbar-brand img {
@@ -35,13 +39,13 @@ html, body {
 }
 
 .nav-link.active,
-.nav-link.hover {
-  color: #7026c9!important;
+.nav-link:hover {
+  color: #9b6baf!important;
 }
 /*============= CAROUSEL =============*/
 
 .carousel-inner {
-  max-height: 32rem!important;
+  max-height: 36rem!important;
 }
 
 /*---Change Carousel Transition Speed --*/
@@ -67,13 +71,19 @@ html, body {
 }
 
 .bg-dark {
-  background-color: rgba(0, 0, 0, .6)!important;
+  background-color: rgba(0, 0, 0, .5)!important;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.bg-lighter {
+  background-color: rgba(255, 255, 255, .4)!important;
   border-radius: 1.5rem;
   padding: 1rem;
 }
 
 .bg-white {
-  background-color: rgba(255, 255, 255, .55)!important;
+  background-color: rgba(255, 255, 255, .7)!important;
   border-radius: 1.5rem;
   padding: 1rem;
 }
@@ -91,7 +101,7 @@ p.lead {
 
 .jumbotron {
   background: linear-gradient(to right, #fdfdfd, #FBFBFB);
-  padding: 1rem 0 .5rem;
+  padding: .8rem 0 .5rem;
   margin-bottom: 0;
   border-radius: 0;
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
@@ -99,10 +109,13 @@ p.lead {
 
 .jumbotron .btn-custom {
   font-size: 1.6rem;
+  background-color: #ccadd8;
+  color: white;
 }
 
 .jumbotron .btn-custom:hover {
   color: white;
+  background-color: #a375b6;
 }
 /*============= COLUMN CONTENT =============*/
 
@@ -267,4 +280,28 @@ Extra (xl) large devices (large desktops, 1200px and up)
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
+}
+
+/*============= ABOUT =============*/
+.two-col {
+  margin-left: 9rem;
+  margin-right: 0rem;
+  text-justify: center;
+  text-align: justify;
+}
+
+.image-seperator {
+  border:0; 
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  margin-bottom: 2rem;
+  height:155px; 
+  background:url("../img/divider.jpg");
+  transform: scale(.7);
+  width: auto;
+}
+
+.container-custom {
+  margin-top: 0rem!important;
+  padding-top: 0rem;
 }

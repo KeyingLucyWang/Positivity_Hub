@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PosiVibes</title>
+    <title>Positivity Hub</title>
     <link rel="shortcut icon" href="img/logo.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -12,6 +12,16 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital@0;1&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!--Send Pulse push service-->
+    <!-- <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+        OneSignal.init({
+        appId: "d24a2725-8092-4fb7-9805-50c6ce3fe289",
+        });
+    });
+    </script> -->
 </head>
 <body>
     <!-- <div class="jumbotron">
@@ -32,9 +42,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-                        <li class="nav-item"><a href="#about_section" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#explore_section" class="nav-link">Explore</a></li>
-
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="explore.html" class="nav-link">Explore</a></li>
+                        <li class="nav-item"><a href="hub.html" class="nav-link">Share</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle"  href="#" data-toggle="dropdown" data-target="resources_dropdown">
                                 Resources
@@ -50,9 +60,9 @@
                                 Stay Connected
                             </a>
                             <div class="dropdown-menu" aria-labelledby="contact_dropdown">
-                                <a class="dropdown-item">LinkedIn</a>
-                                <a class="dropdown-item">GitHub</a>
-                                <a class="dropdown-item">Facebook</a>
+                                <a href="mailto:lucykw90@gmail.com" class="dropdown-item">Email</a>
+                                <a class="dropdown-item" href="https://www.linkedin.com/in/lucy-wang-6153b4194/">LinkedIn</a>
+                                <a class="dropdown-item" href="https://github.com/LucyWang01">GitHub</a>
                             </div>
                         </li>
                     </ul>
@@ -68,18 +78,28 @@
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                    <img src="img/carousel1.jpeg" class="w-100" alt="">
+                    <img src="img/daisy2.jpg" class="w-100" alt="">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-end">
                                 
                                 <div class="d-none d-md-block col-11-md col-lg-9 col-xl-8 bg-dark text-right">
-                                    <h3 class="pb-3">Subscribe now (filler)</h3>
+                                    <h3 class="pb-3 special_text"> &hearts; Positivity Hub &hearts;</h3>
                                     <div class="border-top border-white mb-3 w-75 ml-auto"></div>
-                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae dolore facilis quos eius blanditiis perferendis nihil, dolores veritatis, eos quisquam? Inventore labore, at fugiat error nihil qui eos provident.
+                                    <p class="lead special_text">
+                                        The past couple months have been rough. I know.<br>
+                                        You're tired of staying home and doing nothing all day. <br>
+                                        You probably miss your friends or your family overseas. 
+                                        <br><br>
+                                        Positivity Hub will cheer you up with positive-vibes-only <br>images and quotes &Star; &star; hand picked &star; &Star; for you ☺
+                                        <br><br>
+                                        <!-- The Positivity Hub is designed to be a safe space for everyone to explore and find happiness during this difficult time. <br>
+                                        Here, we can bounce positive energy off of each other and spread positivity .<br>
+                                        <br>
+                                        <!-- Sometimes you can't help but reminisce about the good old days.<br> -->
+                                        <!-- Trust me, sometimes all we need is a little pick-me-up. <br> -->
                                     </p>
                                     <!-- <a href="#" class="btn btn-primary btn-md">Subscribe</a> -->
-                                    <a href="#" class="btn btn-primary btn-md">Subscribe</a>
                                 </div>
 
                             </div>
@@ -88,20 +108,39 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="img/carousel2.jpg" class="w-100" alt="">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="img/carousel3.jpeg" class="w-100" alt="">
+                    <img src="img/cloud2.JPG" class="w-100" alt="">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
 
-                                <div class="d-none d-md-block col-md-9 col-lg-7 bg-white text-left text-dark">
-                                    <h3>Lorem ipsum dolor</h3>
-                                    <div class="border-top border-dark my-1 w-75"></div>
-                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, placeat eveniet. Eum aut ad laborum excepturi aliquam? Est distinctio quos voluptatibus ullam cupiditate nam error consequatur porro explicabo praesentium? Eius?</p>
-                                    <a href="#" class="btn btn-light btn-md">filler</a>
+                                <div class="d-none d-md-block col-md-9 col-lg-7 bg-lighter text-left text-dark special_text">
+                                    <h3> &#10087;Journey of Discovery&#9753; </h3>
+                                    <div class="border-top border-dark my-1 w-80"></div>
+                                    <p class="lead">
+                                        Find small things around you that bring you joy.<br>
+                                        E.g. Watching the sunset and looking up at the sky <br>in its brightest colors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/daisy.jpg" class="w-100" alt="">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <!-- d-none d-md-block col-11-md col-lg-9 col-xl-8 bg-dark text-right -->
+                                <div class="d-none d-md-block col-md-9 col-lg-7 bg-white text-right text-dark special_text">
+                                    <h3>" Hey, Just Checking In... "</h3>
+                                    <div class="border-top border-dark mb-3 w-80 ml-auto"></div>
+                                    <p class="lead">
+                                        Let your friends know you're thinking of them!<br>
+                                        A simple " How you doing? " can go a long way.<br>
+                                        Even better: Recommend &Star;Positivity Hub&Star; to them!
+                                    </p>
+                                    <!-- <a href="#" class="btn btn-light btn-md">filler</a> -->
                                 </div>
                             </div>
                         </div>
@@ -118,46 +157,36 @@
             </ol>
             <!-- End Carousel Indicators -->
 
-        <a id="about_section"></div></a>
+        </div>
         <!-- End Image Carousel -->
 
-    <!-- </div> End Navigation Sticky ID Section -->
+    </div> 
+    <!--End Navigation Sticky ID Section -->
 
     <!-- <div id="subscribe-sticky"> -->
 
         <!-- Start Subscribe Jumbotron -->
-        <!-- <div class="jumbotron sticky-top">
+        <div class="jumbotron sticky-top">
             <div class="container">
-                <div class="row justify-content-center text-center">
+                <div class="row justify-content-center text-center special_text">
 
                     <div class="d-none d-xl-block col-xl-6 pt-1">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <h3>Subscribe to get your dose of positive energy boost throughout the day </h3>
                     </div>
 
                     <div class="col-sm-10 col-md-8 col-lg-7 col-xl-5 pt-1 text-right">
-                        <a href="#" class="btn btn-block btn-outline-danger btn-custom">Subscribe</a>
+                        <a href="#" class="btn btn-lg btn-light btn-custom">
+                            Subscribe
+                        </a>
+                        <!-- <button disabled class="btn btn-block btn-outline-danger btn-custom js-push-btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                            Subscribe
+                        </button> -->
                     </div>
 
                 </div>
             </div>
-        </div> -->
-        <!-- End Subscribe Jumbotron -->
-
-        <!-- Start Two Column Section -->
-        <div class="container mt-5">
-            <div class="row py-5 mb-5">
-    
-                <div class="col-lg-5 mb-4 my-lg-auto">
-                    <h1 class="font-weight-bold mb-3">ABOUT</h1>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum non mollitia voluptatibus repudiandae fuga repellat minus animi! Nemo suscipit repudiandae itaque. Quasi, accusantium non at doloribus expedita architecto similique.</p>
-                </div>
-    
-                <div class="col-lg-7"><img src="img/about.jpg" alt="" class="w-100"></div>
-    
-            </div>
         </div>
-        <!-- End Two Column Section -->
-
+        <!-- End Subscribe Jumbotron -->
 
     <!-- Start Fixed Background IMG -->
     <div class="fixed-background">
@@ -197,20 +226,19 @@
 
     <!-- </div> End Text Button Sticky -->
         <!-- Main Page Heading -->
-        <div class="col-12 text-center mt-5">
-            <h1 class="display-4 pt-4">
-                <a id="explore_section">
-                    EXPLORE
-                </a></h1>
+        <div class="col-12 text-center mt-5 special_text">
+            <h1 class="display-4 pt-4 ">
+                    PREVIEW
+                </h1>
             <div class="border-top border-dark w-50 mx-auto my-3">
-                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis expedita, autem error repellendus consectetur magni provident, commodi sint delectus deserunt quos inventore pariatur quia asperiores corporis deleniti eos perferendis numquam.</p>
+                <p class="lead">Check out the different categories of positive-vibe-only remedies available on Positivity Hub!</p>
             
             </div>
         </div>
 
         <!-- Three Column Section -->
         <div class="container pb-4">
-            <div class="row justify-content-center my-5 text-center">
+            <div class="row justify-content-center my-5 text-center special_text">
 
                 <div class="col-md-6 col-lg-4 py-3">
                     <img class="preview" src="img/preview1.jpg">
@@ -270,7 +298,7 @@
 
                 <div class="col-md-9">
                     <img src="img/logo.png" alt="logo">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur nam quasi molestiae autem eum soluta vel mollitia deleniti? Eum nostrum dignissimos non praesentium libero repellat accusamus, tenetur porro quae necessitatibus!</p>
+                    <p>If you ever need someone to talk to, I'm here for you. Feel free to shoot me an email anytime ☺</p>
                 
                 </div>
                 
@@ -278,8 +306,8 @@
                     <hr class="bg-light">
                     <h5>Contact Info</h5>
                     <hr class="bg-light">
-                    <p><a href="mailto:+me@myemail.com">keyingw@andrew.cmu.edu</a></p>
-                    <p><a href="https://www.linkedin.com/in/lucy-wang-6153b4194/">LinkedIn Profile</a></p>
+                    <p><a href="mailto:lucykw90@gmail.com">lucykw90@gmail.com</a></p>
+                    <p><a href="https://www.linkedin.com/in/lucy-wang-6153b4194/">LinkedIn</a></p>
                     <p><a href="https://github.com/LucyWang01">GitHub</a></p>
                     <p>New York, New York</p>
                 </div>
@@ -291,12 +319,13 @@
 
     <!-- Start Socket -->
     <div class="socket text-light text-center py-4">
-        <p>&copy; <a href="#" target= "_blank">www.posivibes.com</a></p>
+        <p>&copy; <a href="#" target= "_blank">www.positivityhub.org</a></p>
     </div>
     <!-- End Socket -->
 
     <!-- Script Source Files -->
-
+    <!-- <script src="scripts/main.js"></script> -->
+    <!--Javascript file-->
     <!-- jQuery -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap JS -->
@@ -305,8 +334,6 @@
     <script src="js/popper.min.js"></script>
     <!-- Font Awesome -->
     <script src="js/all.min.js"></script>
-    <!--Javascript file-->
-    <script src="scripts/main.js"></script>
     <!--Material Library-->
     <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
     <!-- End Script Source Files -->
