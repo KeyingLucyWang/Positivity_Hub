@@ -23,7 +23,7 @@ html, body {
 }
 
 .navbar {
-  background: linear-gradient(to right, #f2f2f2, #666666);
+  background: linear-gradient(to right, #f2f2f2, #cbacd8); /*eedd80*/
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -100,16 +100,17 @@ p.lead {
 /*============= SUBSCRIBE BUTTON STICKY BAR =============*/
 
 .jumbotron {
-  background: linear-gradient(to right, #fdfdfd, #FBFBFB);
+  background: linear-gradient(to right, white, white); /*#f8f0c0*/
   padding: .8rem 0 .5rem;
   margin-bottom: 0;
   border-radius: 0;
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  height: 5.5rem;
 }
 
 .jumbotron .btn-custom {
   font-size: 1.6rem;
-  background-color: #ccadd8;
+  background-color: #cbacd8; /*cbacd8*/
   color: white;
 }
 
@@ -284,18 +285,18 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 /*============= ABOUT =============*/
 .two-col {
-  margin-left: 9rem;
-  margin-right: 0rem;
+  /* margin-left: 9rem; */
+  /* margin-right: 0rem; */
   text-justify: center;
   text-align: justify;
 }
 
 .image-seperator {
   border:0; 
-  margin-left: 0.8rem;
-  margin-right: 0.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 2rem;
-  height:155px; 
+  height:120px; 
   background:url("../img/divider.jpg");
   transform: scale(.7);
   width: auto;
@@ -304,4 +305,36 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .container-custom {
   margin-top: 0rem!important;
   padding-top: 0rem;
+}
+
+/*============= EXPLORE =============*/
+.btn-bar {
+  width: 7rem;
+  border: 1px solid;
+  border-color: black;
+}
+
+.explore-button {
+  width: 5rem;
+}
+
+image-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.image-column {
+  flex: 50%!important;
+  padding: 0 4px;
+}
+
+.image-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.display-size {
+  width: 10rem;
 }
