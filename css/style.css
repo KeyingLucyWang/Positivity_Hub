@@ -84,7 +84,7 @@ html, body {
 }
 
 .bg-white {
-  background-color: rgba(255, 255, 255, .7)!important;
+  background-color: rgba(255, 255, 255, .6)!important;
   border-radius: 1.5rem;
   padding: 1rem;
 }
@@ -179,10 +179,10 @@ footer a:hover,
     font-size: 1.8rem;
   }
   .navbar-brand img {
-    height: 2.5rem;
+    height: 1.8rem;
   }
   .navbar {
-    font-size: .9rem;
+    font-size: .8rem;
     padding: .3rem .6rem;
   }
 }
@@ -198,6 +198,10 @@ footer a:hover,
     margin-right: 3px;
     margin-left: 3px;
   }
+  .navbar {
+    font-size: .8rem;
+    padding: .3rem .6rem;
+  }
 }
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
@@ -205,10 +209,10 @@ footer a:hover,
     font-size: 1.1rem;
   }
   .navbar-brand img {
-    height: 2.5rem;
+    height: 1.6rem;
   }
   .navbar {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: .4rem .6rem;
   }
   .navbar-toggler {
@@ -218,10 +222,10 @@ footer a:hover,
 /* Devices under 576px (sm) */
 @media (max-width: 575.98px) {
   .navbar-brand img {
-    height: 2.3rem;
+    height: 1.5rem;
   }
   .navbar {
-    font-size: .9rem;
+    font-size: .8rem;
     padding: .3rem .6rem;
   }
   .navbar-toggler {
@@ -311,7 +315,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .about-list {
   text-align: center;
   list-style-position: inside;
-  width: 700px;
+  /* width: 700px; */
 }
 
 
