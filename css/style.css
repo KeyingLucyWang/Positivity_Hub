@@ -18,8 +18,9 @@ html, body {
 /*============= NAVIGATION =============*/
 
 .navbar-brand img {
-  width: 6.0rem;
+  width: 8.0rem;
   height: auto;
+  margin-left: 0rem;
 }
 
 .navbar {
@@ -307,6 +308,27 @@ Extra (xl) large devices (large desktops, 1200px and up)
   padding-top: 0rem;
 }
 
+.about-list {
+  text-align: center;
+  list-style-position: inside;
+  width: 700px;
+}
+
+
+.about-list a {
+  color: black;
+  text-decoration: none;
+}
+
+.about-list a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.about-list a:visited {
+  color: black;
+  text-decoration: none;
+}
 /*============= EXPLORE =============*/
 .btn-bar {
   width: 7rem;
@@ -337,4 +359,30 @@ image-section {
 
 .display-size {
   width: 10rem;
+}
+
+/*============= SMILE TRACKER =============*/
+.active-list {
+  font-weight: 500;
+  color: #9b6baf;
+}
+.happiness-list {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.happiness-list-item {
+  cursor: pointer;
+}
+
+.happiness-list-item:hover {
+  opacity: 0.7;
+}
+
+.list-container {
+  width: 500px;
+}
+
+.new:focus::placeholder {
+  opacity: 0.2;
 }
